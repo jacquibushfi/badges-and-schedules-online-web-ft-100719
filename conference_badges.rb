@@ -10,5 +10,8 @@ people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    end
  end
   
-  def assign_rooms(people, )
+  def assign_rooms(people)
+    people.collect do |name|
+      " Hello, #{name}! You'll be assigned to room #{name.index + 1}!"
+  end
   
