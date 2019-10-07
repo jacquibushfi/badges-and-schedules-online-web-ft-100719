@@ -16,5 +16,11 @@ people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
     end
  end
   
-def printer
-  puts
+def printer(people)
+ batch_badge_creator(people).each do |badge|
+  puts badge
+ end
+ assign_rooms(people).each do |room|
+  puts room
+ end
+end
