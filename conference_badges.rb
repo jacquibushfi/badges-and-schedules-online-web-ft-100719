@@ -8,7 +8,7 @@ people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
       people.collect do |message|
       badge_maker(message)
    end
- 
+ end
   
   
   
