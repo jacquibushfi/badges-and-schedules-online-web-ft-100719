@@ -2,9 +2,10 @@ def badge_maker(name)
   return "Hello, my name is #{name}.".to_s
 end
   
-  
-  def batch_badge_creator(array)
-      array.collect do |message|
+people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]  
+
+  def batch_badge_creator(people)
+      people.collect do |message|
       badge_maker(message)
    end
  
