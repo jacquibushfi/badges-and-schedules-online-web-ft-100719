@@ -7,4 +7,5 @@ end
     array.each do |message|
      message_array.push(badge_maker)
    end
+   message_array
   end
