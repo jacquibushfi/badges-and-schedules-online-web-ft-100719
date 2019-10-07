@@ -11,7 +11,8 @@ people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  end
   
   def assign_rooms(people)
-    people.collect do |name|
-   "Hello, #{name}! You'll be assigned to room #{name.each_with_index + 1}!"
-  end
+    people.each_with_index.map do |name, index|
+     "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+    end
+ end
   
