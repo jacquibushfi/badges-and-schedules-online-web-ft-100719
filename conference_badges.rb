@@ -10,5 +10,5 @@ people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    end
  end
   
-  
+  def assign_rooms(people, )
   
