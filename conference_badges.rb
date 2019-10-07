@@ -8,5 +8,5 @@ end
       badge = badge_maker
      message_array.push(badge)
    end
-   message_array
+  puts message_array
   end
